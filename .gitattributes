@@ -1,0 +1,7 @@
+# Текст хранится с LF: CRLF ломает файлы при раздаче с Pages и на Linux.
+* text=auto eol=lf
+
+# Двоичное не трогать
+*.woff2 binary
+*.jpg   binary
+*.png   binary

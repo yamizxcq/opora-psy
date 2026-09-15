@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опора — психолог Анна Ремизова. Онлайн и очно в Москве</title>
+<meta name="description" content="Частная практика: психотерапия под конкретный запрос — с ориентирами и сроком. Встреча-знакомство 50 минут, онлайн по России и очно в Москве.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23C2562F'/><path d='M10 22V10h6a4 4 0 010 8h-6' stroke='%23F7F0E6' stroke-width='3' fill='none'/></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══ ШАПКА ═══ -->
+<header class="header" id="top">
+  <div class="container header__in">
+    <a class="logo" href="#top">
+      <span class="logo__mark">Опора</span>
+      <span class="logo__sub">частная практика</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#topics">С чем приходят</a>
+      <a href="#guide">Гид</a>
+      <a href="#about">Обо мне</a>
+      <a href="#steps">Как проходит</a>
+      <a href="#prices">Цены</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="header__right">
+      <a class="header__tel" href="tel:+70000000000">+7 000 000-00-00</a>
+      <a class="btn btn--primary btn--sm" href="#contact">Записаться</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ═══ ПЕРВЫЙ ЭКРАН ═══ -->
+<section class="hero">
+  <div class="container hero__in">
+    <div>
+      <span class="hero__badge"><i></i>Онлайн по России · очно в Москве</span>
+      <h1 class="hero__title">Терапия, в которой понятно, <span class="accent">куда вы идёте</span></h1>
+      <p class="hero__desc">
+        У работы есть предмет, ориентиры и срок. Через восемь-двенадцать встреч
+        видно, что именно изменилось — по сну, по разговорам дома, по тому,
+        как проходит рабочая неделя.
+      </p>
+      <p class="hero__who">
+        Анна Ремизова — психолог, 11 лет частной практики. Когнитивно-поведенческая
+        терапия и схема-терапия, регулярная супервизия.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary btn--lg" href="#contact">Записаться на встречу-знакомство</a>
+        <a class="btn btn--outline btn--lg" href="#guide">Сначала забрать гид</a>
+      </div>
+    </div>
+
+    <div class="hero__card">
+      <div class="hero__card-t">Встреча-знакомство</div>
+      <p class="hero__card-p">50 минут, чтобы сформулировать запрос и понять, подходим ли мы друг другу.</p>
+      <form class="form js-form">
+        <input class="inp" type="text" name="name" placeholder="Как к вам обращаться" required>
+        <input class="inp" type="text" name="contact" placeholder="Телефон или @telegram" required>
+        <div class="form__row">
+          <select class="inp" name="topic">
+            <option value="">С чем хотите поработать</option>
+            <option>Тревога, бессонница</option>
+            <option>Выгорание, апатия</option>
+            <option>Отношения, границы</option>
+            <option>Самооценка, самокритика</option>
+            <option>Утрата, развод, переезд</option>
+            <option>Пока не могу сформулировать</option>
+          </select>
+          <select class="inp" name="format">
+            <option value="">Формат</option>
+            <option>Онлайн</option>
+            <option>Очно, Москва</option>
+          </select>
+        </div>
+        <button class="btn btn--primary btn--full" type="submit">Отправить заявку</button>
+        <div class="form__ok">Заявка отправлена. Отвечу в течение дня.</div>
+        <p class="form__note">Отвечаю в течение дня. Первая встреча ни к чему не обязывает.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hstats">
+      <div class="hstat"><b>11 лет</b><span>частной практики</span></div>
+      <div class="hstat"><b>4 300</b><span>часов консультаций</span></div>
+      <div class="hstat"><b>8–12</b><span>встреч в короткой работе</span></div>
+      <div class="hstat"><b>2 раза</b><span>в месяц супервизия</span></div>
+      <div class="hstat"><b>50 мин</b><span>длительность встречи</span></div>
+    </div>
+  </div>
+
+  <img class="hero__band" src="img/hero-band.jpg" alt="Утренний свет из окна кабинета" width="2200" height="640"></section>
+
+<!-- ═══ С ЧЕМ ПРИХОДЯТ ═══ -->
+<section class="topics" id="topics">
+  <div class="container">
+    <div class="s-head">
+      <div class="eyebrow">Запросы</div>
+      <h2 class="s-title">С чем ко мне приходят</h2>
+      <p class="s-sub">
+        Запрос не обязан быть красивым и точным — его почти всегда уточняют
+        на первых встречах. Достаточно узнать себя в одном из описаний.
+      </p>
+    </div>
+    <div class="topic-grid reveal">
+      <article class="topic">
+        <div class="topic__n">01</div>
+        <h3 class="topic__t">Тревога и бессонница</h3>
+        <p class="topic__d">Не спите перед каждым созвоном с руководителем, прокручиваете разговоры по десять раз, держите в голове список того, что может пойти не так.</p>
+      </article>
+      <article class="topic">
+        <div class="topic__n">02</div>
+        <h3 class="topic__t">Выгорание и «не хочу ничего»</h3>
+        <p class="topic__d">Работа, которая раньше нравилась, стала невыносимой. Выходные не восстанавливают, отпуск помогает на четыре дня.</p>
+      </article>
+      <article class="topic">
+        <div class="topic__n">03</div>
+        <h3 class="topic__t">Отношения и границы</h3>
+        <p class="topic__d">Соглашаетесь, когда хотите отказать. Одни и те же ссоры по кругу. Дома молчите, чтобы не начинать заново.</p>
+      </article>
+      <article class="topic">
+        <div class="topic__n">04</div>
+        <h3 class="topic__t">Самооценка и самокритика</h3>
+        <p class="topic__d">Внутри работает голос, который комментирует каждый шаг. Похвалу не слышно, ошибку помните годами.</p>
+      </article>
+      <article class="topic">
+        <div class="topic__n">05</div>
+        <h3 class="topic__t">Утрата, развод, переезд</h3>
+        <p class="topic__d">Жизнь разделилась на «до» и «после». Окружающие ждут, что вы уже справились, а вы всё ещё внутри этого.</p>
+      </article>
+      <article class="topic">
+        <div class="topic__n">06</div>
+        <h3 class="topic__t">Панические атаки</h3>
+        <p class="topic__d">Скорая и кардиолог ничего не нашли, а приступы повторяются. Вы начали избегать метро, лифтов и больших магазинов.</p>
+      </article>
+    </div>
+    <p class="topics__note">
+      Не нашли себя в списке? Напишите своими словами — на встрече-знакомстве
+      разберёмся, подходит ли здесь терапия и с какого формата начинать.
+    </p>
+  </div>
+</section>
+
+<!-- ═══ ЛИД-МАГНИТ ═══ -->
+<section class="magnet" id="guide">
+  <div class="container magnet__in">
+    <img class="magnet__cover reveal" src="img/guide-cover.jpg" alt="Обложка гида «Почему терапия не приносит облегчения»" width="640" height="1138" loading="lazy">
+    <div>
+      <div class="eyebrow">Бесплатный гид · 15 страниц · PDF</div>
+      <h2>Почему терапия<br>не приносит облегчения</h2>
+      <p>
+        Вы ходите к психологу несколько месяцев, а легче не становится.
+        Обычно дело не в вас и не в методе — а в семи ошибках,
+        которые совершают почти все.
+      </p>
+      <ul class="magnet__list">
+        <li><b>7</b><span>ошибок, из-за которых работа буксует, — с разбором, что делать вместо</span></li>
+        <li><b>5</b><span>вопросов, которые стоит задать специалисту до первой оплаты</span></li>
+        <li><b>1</b><span>чек-лист «сколько пунктов про вас» — чтобы понять, где вы сейчас</span></li>
+      </ul>
+      <form class="form magnet__form js-form">
+        <input class="inp" type="email" name="email" placeholder="Ваша почта" required>
+        <button class="btn btn--light" type="submit">Получить гид</button>
+        <div class="form__ok">Готово — гид ушёл на почту.</div>
+      </form>
+      <p class="magnet__note">Без рассылки и звонков. Только сам гид — одним письмом.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ОБО МНЕ ═══ -->
+<section class="about" id="about">
+  <div class="container about__in">
+    <img class="about__art reveal" src="img/about.jpg" alt="Анна Ремизова в кабинете" width="1000" height="1200" loading="lazy">
+    <div>
+      <div class="eyebrow">Обо мне</div>
+      <h2 class="s-title">Анна Ремизова</h2>
+      <p class="about__lead">
+        Я не даю советов и не объясняю, каким вам быть. Моя работа — помочь
+        разобрать конкретную ситуацию на части и найти, где именно
+        вы застреваете. Дальше меняете вы, а я держу структуру и темп.
+      </p>
+      <dl class="facts">
+        <div class="fact"><dt>Образование</dt><dd>МГУ, факультет психологии, 2012</dd></div>
+        <div class="fact"><dt>Переподготовка</dt><dd>Когнитивно-поведенческая терапия, 1 200 часов</dd></div>
+        <div class="fact"><dt>Метод</dt><dd>КПТ и схема-терапия, элементы АСТ</dd></div>
+        <div class="fact"><dt>Супервизия</dt><dd>Дважды в месяц, личная терапия — еженедельно</dd></div>
+        <div class="fact"><dt>Членство</dt><dd>Ассоциация когнитивно-поведенческой психотерапии</dd></div>
+        <div class="fact"><dt>Практика</dt><dd>11 лет, около 4 300 часов консультаций</dd></div>
+      </dl>
+      <div class="about__no">
+        <b>С чем я не работаю.</b> Зависимости, острые психотические состояния,
+        расстройства пищевого поведения в тяжёлой фазе и парная терапия —
+        не моя специализация. В этих случаях на первой же встрече
+        порекомендую коллегу, а не буду вести «как получится».
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ КАК ПРОХОДИТ ═══ -->
+<section class="steps" id="steps">
+  <div class="container">
+    <div class="s-head s-head--center">
+      <div class="eyebrow">Как проходит работа</div>
+      <h2 class="s-title">Пять шагов вместо «ходите, а там посмотрим»</h2>
+      <p class="s-sub">
+        Первые две-три встречи уходят на то, чтобы вас узнали.
+        Это нормальный ход работы, а не потерянное время.
+      </p>
+    </div>
+    <img class="steps__art reveal" src="img/room.jpg" alt="Два кресла друг напротив друга — кабинет, где проходят встречи" width="1520" height="800" loading="lazy">
+    <div class="step-grid reveal">
+      <div class="step">
+        <div class="step__n">1</div>
+        <div class="step__t">Заявка</div>
+        <p class="step__d">Пишете в двух словах, что происходит. Отвечаю в течение дня и предлагаю время.</p>
+      </div>
+      <div class="step">
+        <div class="step__n">2</div>
+        <div class="step__t">Встреча-знакомство</div>
+        <p class="step__d">50 минут: что с вами происходит, чего вы ждёте, подходим ли мы друг другу.</p>
+      </div>
+      <div class="step">
+        <div class="step__n">3</div>
+        <div class="step__t">Запрос и ориентиры</div>
+        <p class="step__d">Формулируем, что должно измениться и по чему вы поймёте, что стало лучше.</p>
+      </div>
+      <div class="step">
+        <div class="step__n">4</div>
+        <div class="step__t">Работа раз в неделю</div>
+        <p class="step__d">Встреча и маленький шаг в промежутке. Регулярность важнее интенсивности.</p>
+      </div>
+      <div class="step">
+        <div class="step__n">5</div>
+        <div class="step__t">Итог и пересборка</div>
+        <p class="step__d">Через месяц-полтора сверяемся: что сдвинулось, что уточнить, куда идём дальше.</p>
+      </div>
+    </div>
+    <p class="steps__note">
+      Если кажется, что мы топчемся на месте — скажите об этом прямо на встрече.
+      Это не грубость, а часть работы: обычно самый ценный материал.
+    </p>
+  </div>
+</section>
+
+<!-- ═══ ЦЕНЫ ═══ -->
+<section class="prices" id="prices">
+  <div class="container">
+    <div class="s-head">
+      <div class="eyebrow">Форматы и цены</div>
+      <h2 class="s-title">Короткие понятные форматы</h2>
+      <p class="s-sub">
+        У каждого есть предмет, ориентиры и срок. Онлайн и очно — одна цена.
+      </p>
+    </div>
+    <div class="price-grid reveal">
+      <div class="price">
+        <div class="price__t">Встреча-знакомство</div>
+        <p class="price__d">50 минут, чтобы сформулировать запрос и понять, подходим ли мы друг другу.</p>
+        <div class="price__v">2 500 ₽</div>
+        <div class="price__u">разовая встреча</div>
+        <a class="btn btn--outline btn--full" href="#contact">Записаться</a>
+      </div>
+      <div class="price price--pick">
+        <span class="price__tag">Чаще всего выбирают</span>
+        <div class="price__t">Короткая работа</div>
+        <p class="price__d">8–12 встреч под конкретный запрос, с понятными ориентирами по дороге.</p>
+        <div class="price__v">4 500 ₽</div>
+        <div class="price__u">за встречу, раз в неделю</div>
+        <a class="btn btn--primary btn--full" href="#contact">Записаться</a>
+      </div>
+      <div class="price">
+        <div class="price__t">Регулярная терапия</div>
+        <p class="price__d">Раз в неделю без ограничения срока — если запрос шире одной ситуации.</p>
+        <div class="price__v">4 500 ₽</div>
+        <div class="price__u">за встречу</div>
+        <a class="btn btn--outline btn--full" href="#contact">Записаться</a>
+      </div>
+      <div class="price">
+        <div class="price__t">Поддержка между встречами</div>
+        <p class="price__d">Можно написать, если накрыло, и не ждать неделю до следующей сессии.</p>
+        <div class="price__v">0 ₽</div>
+        <div class="price__u">входит в короткую и регулярную работу</div>
+        <a class="btn btn--outline btn--full" href="#contact">Спросить</a>
+      </div>
+    </div>
+    <div class="price-note">
+      <span><b>·</b> Отмена или перенос за сутки — бесплатно</span>
+      <span><b>·</b> Онлайн — в Telegram или Zoom, ссылка приходит заранее</span>
+      <span><b>·</b> Очно — Москва, 7 минут от метро «Новокузнецкая»</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ОТЗЫВЫ ═══ -->
+<section class="reviews">
+  <div class="container">
+    <div class="s-head s-head--center">
+      <div class="eyebrow">Отзывы</div>
+      <h2 class="s-title">Что говорят после работы</h2>
+    </div>
+    <div class="rev-grid reveal">
+      <article class="rev">
+        <div class="rev__q">“</div>
+        <p class="rev__txt">
+          Я приходила с «мне просто плохо» и была уверена, что это на годы.
+          На третьей встрече вдруг стало понятно, что речь про работу и про то,
+          что я не умею отказывать. Через два месяца я впервые за долгое время
+          спала нормальную неделю.
+        </p>
+        <div class="rev__who"><b>М., 31 год</b><span>тревога, бессонница · 12 встреч</span></div>
+      </article>
+      <article class="rev">
+        <div class="rev__q">“</div>
+        <p class="rev__txt">
+          До этого был опыт, где мы полгода разговаривали и ничего не менялось.
+          Здесь на каждой встрече понятно, что мы делаем и зачем, и есть
+          что-то маленькое на неделю. Это оказалось решающим.
+        </p>
+        <div class="rev__who"><b>Д., 42 года</b><span>выгорание · 9 встреч</span></div>
+      </article>
+      <article class="rev">
+        <div class="rev__q">“</div>
+        <p class="rev__txt">
+          Отдельно ценно, что на знакомстве мне честно сказали, чего ждать
+          и чего не ждать. Без обещаний «станет легче после первой встречи».
+          Стало легче, но не сразу — и я была к этому готова.
+        </p>
+        <div class="rev__who"><b>К., 27 лет</b><span>самокритика, отношения · регулярная терапия</span></div>
+      </article>
+    </div>
+    <p class="reviews__note">
+      Отзывы опубликованы с письменного согласия. Имена изменены, детали
+      запросов обобщены — конфиденциальность важнее убедительности.
+    </p>
+  </div>
+</section>
+
+<!-- ═══ ВОПРОСЫ ═══ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="s-head s-head--center">
+      <div class="eyebrow">Вопросы</div>
+      <h2 class="s-title">То, что спрашивают до первой встречи</h2>
+    </div>
+    <div class="faq__list reveal">
+      <div class="q">
+        <button class="q__btn">Сколько встреч понадобится?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Под конкретный запрос — обычно 8–12 встреч раз в неделю. Если запрос шире одной ситуации, работа идёт дольше и без жёсткого срока. Точную цифру никто не назовёт заранее, но на третьей встрече мы вместе прикинем ориентир и сверимся через месяц. Это ориентир из практики, а не обещание результата: темп у каждого свой.</p></div>
+      </div>
+      <div class="q">
+        <button class="q__btn">Онлайн работает так же, как очно?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Для большинства запросов — да, разницы в результате нет. Очный формат заметно выигрывает, если вам трудно удерживать внимание дома или нет места, где вас не слышно. Многие начинают очно и переходят в онлайн, когда работа уже набрала ход.</p></div>
+      </div>
+      <div class="q">
+        <button class="q__btn">А если мы не подойдём друг другу?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Встреча-знакомство именно для этого и нужна — это знакомство, а не обязательство. Если после двух-трёх встреч ничего не сдвинулось, скажите прямо: мы либо поменяем способ работы, либо я порекомендую коллегу с другим подходом. Сравнивать специалистов — абсолютно нормально.</p></div>
+      </div>
+      <div class="q">
+        <button class="q__btn">Это точно останется между нами?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Да. Всё, что вы говорите, не выходит за пределы кабинета. Исключение одно и оно оговаривается на первой встрече: прямая угроза жизни — вашей или чужой. Случаи, которые я разбираю на супервизии, обезличены: коллега не знает ни имени, ни узнаваемых деталей.</p></div>
+      </div>
+      <div class="q">
+        <button class="q__btn">Чем психолог отличается от психиатра? Мне нужны таблетки?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Психиатр — врач, он ставит диагноз и назначает лекарства. Я не врач и препараты не назначаю. При выраженной депрессии, тяжёлой тревоге или панических атаках лучше всего работает связка: психиатр подбирает поддержку, мы параллельно разбираем то, что её запустило. Если увижу такие признаки — скажу прямо и подскажу, к кому пойти.</p></div>
+      </div>
+      <div class="q">
+        <button class="q__btn">Можно ли переносить встречи?<span class="q__ico"></span></button>
+        <div class="q__a"><p>Можно, если предупредить за сутки — тогда перенос бесплатный. Просьба не переносить встречу просто потому, что на этой неделе стало полегче: пропуски ровно в такие моменты — одна из главных причин, по которым работа буксует.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ЗАЯВКА ═══ -->
+<section class="cta" id="contact">
+  <div class="container cta__in">
+    <div>
+      <div class="eyebrow">Контакты</div>
+      <h2 class="cta__t">Напишите — разберёмся,<br>с чего начинать</h2>
+      <p class="cta__d">
+        Расскажите в двух словах, что происходит. Отвечу, подходит ли здесь
+        терапия и с какого формата разумнее начать. Первый шаг — это одно
+        сообщение, а не обязательство.
+      </p>
+      <div class="cta__ways">
+        <div class="cta__way"><b>Телефон</b><a href="tel:+70000000000">+7 000 000-00-00</a></div>
+        <div class="cta__way"><b>Telegram</b><a href="#contact">@opora_practice</a></div>
+        <div class="cta__way"><b>Почта</b><a href="#contact">hello@opora.example</a></div>
+        <div class="cta__way"><b>Кабинет</b><span>Москва, 7 минут пешком от «Новокузнецкой»</span></div>
+        <div class="cta__way"><b>Время ответа</b><span>В течение дня, кроме воскресенья</span></div>
+      </div>
+    </div>
+
+    <div class="cta__card">
+      <div class="hero__card-t">Заявка на встречу</div>
+      <p class="hero__card-p">Заполните — свяжусь и предложу два-три ближайших окна.</p>
+      <form class="form js-form">
+        <input class="inp" type="text" name="name" placeholder="Как к вам обращаться" required>
+        <div class="form__row">
+          <input class="inp" type="text" name="contact" placeholder="Телефон или @telegram" required>
+          <select class="inp" name="format">
+            <option value="">Формат</option>
+            <option>Онлайн</option>
+            <option>Очно, Москва</option>
+          </select>
+        </div>
+        <select class="inp" name="topic">
+          <option value="">С чем хотите поработать</option>
+          <option>Тревога, бессонница</option>
+          <option>Выгорание, апатия</option>
+          <option>Отношения, границы</option>
+          <option>Самооценка, самокритика</option>
+          <option>Утрата, развод, переезд</option>
+          <option>Панические атаки</option>
+          <option>Пока не могу сформулировать</option>
+        </select>
+        <textarea class="inp" name="text" placeholder="Пара слов о том, что происходит — по желанию"></textarea>
+        <button class="btn btn--primary btn--full btn--lg" type="submit">Отправить заявку</button>
+        <div class="form__ok">Заявка отправлена. Отвечу в течение дня.</div>
+        <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ПОДВАЛ ═══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__mark">Опора</div>
+        <div class="footer__sub">частная практика</div>
+        <p>Психотерапия под конкретный запрос — с предметом, ориентирами и сроком. Онлайн по России и очно в Москве.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul>
+          <li><a href="#topics">С чем приходят</a></li>
+          <li><a href="#guide">Гид «7 ошибок»</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#steps">Как проходит</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Работа</h4>
+        <ul>
+          <li><a href="#prices">Форматы и цены</a></li>
+          <li><a href="#faq">Частые вопросы</a></li>
+          <li><a href="#contact">Записаться</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <ul>
+          <li><a href="tel:+70000000000">+7 000 000-00-00</a></li>
+          <li><a href="#contact">@opora_practice</a></li>
+          <li><a href="#contact">hello@opora.example</a></li>
+          <li><a href="#contact">Москва, «Новокузнецкая»</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bot">
+      <span>© 2026 Опора · Анна Ремизова</span>
+      <span class="footer__demo">Демонстрационный макет. Имя, отзывы, цены и контакты вымышлены. Фотографии — Unsplash, люди на них не имеют отношения к тексту.</span>
+      <a href="#contact">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Сборочный мусор
+__pycache__/
+*.pyc
+
+# Рендеры страницы: пересобираются через `python shot.py`
+out/
+
+# Служебное Windows / OneDrive
+Thumbs.db
+desktop.ini
