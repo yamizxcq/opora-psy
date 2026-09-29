@@ -8,3 +8,6 @@ out/
 # Служебное Windows / OneDrive
 Thumbs.db
 desktop.ini
+
+# Внутренние правила для Claude: живут локально, в публичный репо не идут
+CLAUDE.md
